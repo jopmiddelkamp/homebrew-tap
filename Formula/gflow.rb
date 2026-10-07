@@ -1,16 +1,16 @@
 class Gflow < Formula
   desc "gflow - a customized gitflow workflow CLI"
   homepage "https://github.com/jopmiddelkamp/gflow"
-  version "4.4.0"
+  version "4.5.0"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/jopmiddelkamp/gflow/releases/download/v#{version}/gflow-macos-aarch64"
-      sha256 "70cd77dd9fe5a4d0fd6e255af042fdc97b75cabd4fc10f7722dd3a8d30f7859e"
+      sha256 "36e2c7cc6184341fe40c45443ce3ec566785d0d9f48167c47137f11bc920748a"
     else
       url "https://github.com/jopmiddelkamp/gflow/releases/download/v#{version}/gflow-macos-x86_64"
-      sha256 "48c26fdbe2d726b8898c83a4026eee6707d20a1ca752d2b5b71e5bed85c4b5f9"
+      sha256 "ca99680c0c9bcaf5a1c53525af6e7311266ae3a2074477272956ed793535bbf2"
     end
   end
 
